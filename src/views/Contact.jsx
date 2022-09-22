@@ -4,9 +4,13 @@ export default function Contact() {
   return (
     <Container >
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-light pb-11">
+        <p className="text-4xl font-light pb-11 hidden md:block lg:block">
           Cuentanos, ¿en que te podemos ayudar?
-        </h1>
+        </p>
+        <div className="text-4xl font-light pb-11 md:hidden lg:hidden">
+          <p>Cuentanos, </p>
+          <p>¿en que te podemos ayudar?</p>
+        </div>
         <div className="flex flex-col items-center w-full pb-11">
           <label htmlFor="email" className="block text-lg font-normal text-gray-700">
             Correo:
