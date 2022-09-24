@@ -1,8 +1,9 @@
 import { ExclamationTriangleIcon } from '@heroicons/react/24/solid';
+import Container from '../layouts/Container';
 
 export default function NotFound() {
   return(
-    <div className="flex flex-wrap justify-center items-center h-[calc(100vh-121px)]">
+    <Container>
       <div className="rounded-md bg-red-100 p-4">
         <div className="flex">
           <div className="flex-shrink-0">
@@ -18,6 +19,6 @@ export default function NotFound() {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   )
 }
