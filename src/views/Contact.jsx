@@ -20,7 +20,7 @@ export default function Contact() {
               type="email"
               name="email"
               id="email"
-              className="block w-full rounded-md border-black shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm text-center h-9"
+              className="block w-full border-x border-y rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm text-center h-9"
               placeholder="you@example.com"
             />
           </div>
@@ -35,7 +35,7 @@ export default function Contact() {
               id="message"
               name="message"
               rows={4}
-              className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="block w-full rounded-md border-x border-y border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
               defaultValue={''}
             />
           </div>
